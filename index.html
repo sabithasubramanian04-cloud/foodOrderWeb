@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Food App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Horizontal Navbar -->
+  <nav class="navbar">
+    <h2 class="logo">TASTY BUTZZZ</h2>
+    <div class="nav-links">
+      <a href="#" id="home-btn">Home</a>
+      <a href="#" id="edit-btn">Edit</a>
+    </div>
+  </nav>
+
+  <!-- Page 1: Select Food -->
+  <section id="page1" class="page active">
+    <h1>Available Food Items</h1>
+    <div id="food-list" class="food-list"></div>
+    <button id="submit-page1" class="submit-btn">Submit</button>
+  </section>
+
+  <!-- Page 2: Review Order -->
+  <section id="page2" class="page">
+    <h1>Review Your Order</h1>
+    <ul id="order-list" class="order-list"></ul>
+    <button id="submit-page2" class="submit-btn">Submit</button>
+  </section>
+
+  <!-- Page 3: Order Success -->
+  <section id="page3" class="page">
+    <h1>✅ Order Successful!</h1>
+    <p>Thank you for ordering from Tasty Butzzz!</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
